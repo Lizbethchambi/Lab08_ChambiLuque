@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Lab08_ChambiLuque.props" />
-</Project>
