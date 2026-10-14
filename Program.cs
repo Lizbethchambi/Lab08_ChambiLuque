@@ -2,9 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Lab08_ChambiLuque.Core.Application.Interfaces;
 using Lab08_ChambiLuque.Core.Application.UseCases;
 using Lab08_ChambiLuque.Core.Domain.Entities;
-using Lab08_ChambiLuque.Core.Infrastructure.Persistence.Context;
-using Lab08_ChambiLuque.Core.Infrastructure.Persistence.Repositories;
-
+using Lab08_ChambiLuque.Infrastructure.Persistence.Context;     
+using Lab08_ChambiLuque.Infrastructure.Persistence.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

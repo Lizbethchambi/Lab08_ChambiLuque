@@ -1,11 +1,10 @@
+using Lab08_ChambiLuque.Core.Application.Dtos;
 using Lab08_ChambiLuque.Core.Application.Interfaces;
 using Lab08_ChambiLuque.Core.Domain.Entities;
-using Lab08_ChambiLuque.Core.Infrastructure.Persistence.Context;
-using Lab08_ChambiLuque.Core.Presentation.Dtos;
+using Lab08_ChambiLuque.Infrastructure.Persistence.Context; 
 using Microsoft.EntityFrameworkCore;
 
-namespace Lab08_ChambiLuque.Core.Infrastructure.Persistence.Repositories;
-
+namespace Lab08_ChambiLuque.Infrastructure.Persistence.Repositories;
 public class ClienteRepository : IClienteRepository
 {
     private readonly LinqexampleContext _context;

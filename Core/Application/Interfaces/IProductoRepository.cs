@@ -1,5 +1,5 @@
 using Lab08_ChambiLuque.Core.Domain.Entities;
-using Lab08_ChambiLuque.Core.Presentation.Dtos;
+using Lab08_ChambiLuque.Core.Application.Dtos;
 
 namespace Lab08_ChambiLuque.Core.Application.Interfaces;
 

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 using Lab08_ChambiLuque.Core.Domain.Entities;
 
-namespace Lab08_ChambiLuque.Core.Infrastructure.Persistence.Context;
+namespace Lab08_ChambiLuque.Infrastructure.Persistence.Context;
 public partial class LinqexampleContext : DbContext
 {
     public LinqexampleContext()

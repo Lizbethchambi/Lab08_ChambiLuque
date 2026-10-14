@@ -1,5 +1,4 @@
-namespace Lab08_ChambiLuque.Core.Presentation.Dtos;
-
+namespace Lab08_ChambiLuque.Core.Application.Dtos;
 public class ProductDto
 {
     public int ProductId { get; set; }

@@ -1,7 +1,8 @@
-using Lab08_ChambiLuque.Core.Application.Interfaces;
-using Lab08_ChambiLuque.Core.Infrastructure.Persistence.Context;
 
-namespace Lab08_ChambiLuque.Core.Infrastructure.Persistence.Repositories;
+using Lab08_ChambiLuque.Core.Application.Interfaces;
+using Lab08_ChambiLuque.Infrastructure.Persistence.Context;
+    
+namespace Lab08_ChambiLuque.Infrastructure.Persistence.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {
